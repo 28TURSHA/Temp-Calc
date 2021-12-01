@@ -1,7 +1,7 @@
 function tempConversion(form) {
-    var Fi = form.fahr.value;
-    var Ci = form.cels.value;
-    var C2, F2, C, F;
+    let Fi = form.fahr.value;
+    let Ci = form.cels.value;
+    let C2, F2, C, F;
 
     if (Ci != "" && Fi != "") {
     alert("You must clear the entries before attempting another conversion");
